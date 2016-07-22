@@ -3,7 +3,8 @@
 Very quick fix to prettifying iptables logs.  
 Outputting them in a more friendly way and giving a short summary on the top IP/port hits.  
 
-![Mocked Example](https://i.imgur.com/lRSRJOO.png)
+Edited example:
+![Edited Example](https://i.imgur.com/lRSRJOO.png)
 
 Expects your log daemon to send blocked and allowed requests to different log files.  
 Example with rsyslog:  
