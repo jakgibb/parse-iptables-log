@@ -11,3 +11,5 @@ Example with rsyslog:
 > :msg, contains, "iptallow" -/var/log/iptables/iptables.allowed.log  
 > & ~
 
+#Usage
+Pipe the logs to parse-iptlog.py, or adjust the view-ipt-log.sh script with the log locations and execute it which will pipe it to the Python script for you.
